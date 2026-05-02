@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTHUR_SOUSA // DEFENSIVE_OPS_CONSOLE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="matrix-canvas"></canvas>
+    <div class="crt-scanlines"></div>
+    <div class="vignette"></div>
+
+    <div class="app-shell">
+        <!-- TOP HEADER -->
+        <header class="top-bar">
+            <div class="sys-info">NODE_UPLINK: RECIFE_BRA // YOKOHAMA_JPN</div>
+            <div class="sys-title">DEFENSIVE_OPERATIONS_CONSOLE_V.8.0</div>
+            <div class="sys-clock" id="clock">00:00:00</div>
+        </header>
+
+        <main class="dashboard-grid">
+            
+            <!-- COLUMN 1: IDENTITY DOSSIER -->
+            <section class="panel dossier">
+                <div class="panel-header"><span>[ 01_IDENTITY_DOSSIER ]</span><span class="status-dot-blink"></span></div>
+                <div class="panel-body">
+                    <div class="hud-frame">
+                        <img src="arthurperfil.png" alt="Arthur">
+                        <div class="scan-bar"></div>
+                        <div class="corner-box">REF: 25-BRA</div>
+                    </div>
+                    <div class="id-badge-list">
+                        <div class="id-badge blue">CLR: ELITE</div>
+                        <div class="id-badge green">LOC: BRAZIL</div>
+                    </div>
+                    <h1 class="glow-name">ARTHUR SOUSA</h1>
+                    <p class="role-title">Cloud Security Engineer & Physicist</p>
+                    
+                    <div class="mission-terminal">
+                   <label>PROTOCOL_SUMMARY</label>
+                   <p>"Utilizing <strong>first-principles analytical rigor</strong> to architect resilient cloud ecosystems. Synthesizing Physics-driven logic with <strong>Zero-Trust engineering</strong> to design high-fidelity defense layers."</p>
+                    </div>
+                    <div class="expertise-grid">
+                        <div class="exp-tag">THREAT_HUNTING <span class="led"></span></div>
+                        <div class="exp-tag">SIEM_SENTINEL <span class="led"></span></div>
+                        <div class="exp-tag">IAM_HARDENING <span class="led"></span></div>
+                        <div class="exp-tag">SECURE_SDLC <span class="led"></span></div>
+                    </div>
+
+                    <div class="master-links">
+                        <a href="https://linkedin.com/in/arthursousafermi/" target="_blank" class="uplink-btn ln">LINKEDIN_UPLINK</a>
+                        <a href="https://github.com/tanjyosai" target="_blank" class="uplink-btn git">GITHUB_MASTER</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- COLUMN 2: MISSION FILES (PROJECTS) -->
+            <section class="panel mission-files">
+                <div class="panel-header"><span>[ 02_MISSION_FILES // REPO_SYNC ]</span><span class="connected-text">CONNECTED</span></div>
+                <div class="panel-body scroll-y">
+                    
+                    <div class="p-card border-blue">
+                        <div class="card-meta">SIEM_OPS // [STATUS: ACTIVE]</div>
+                        <h3>Azure SOC Lab</h3>
+                        <p>Cloud-native SOC and Live Honeypot with Microsoft Sentinel to analyze global RDP Brute-Force attacks.</p>
+                        <div class="tech-stack-mini">AZURE | SENTINEL | KQL</div>
+                        <a href="https://github.com/tanjyosai/Azure-Sentinel-SOC-Lab" target="_blank" class="git-link">ACCESS_TELEMETRY >></a>
+                    </div>
+
+                    <div class="p-card border-green">
+                        <div class="card-meta">COMPLIANCE // [STATUS: VERIFIED]</div>
+                        <h3>Botium Toys Audit</h3>
+                        <p>Internal security audit following <strong>NIST CSF</strong> standards. Mapped organizational goals to GDPR and PCI DSS controls.</p>
+                        <div class="tech-stack-mini">NIST CSF | GRC | AUDIT</div>
+                        <a href="https://github.com/tanjyosai/Internal-Security-Audit-Botium-Toys" target="_blank" class="git-link">VIEW_AUDIT >></a>
+                    </div>
+
+                    <div class="p-card border-blue">
+                        <div class="card-meta">AUTOMATION // [STATUS: STABLE]</div>
+                        <h3>IP Reputation Checker</h3>
+                        <p>Automated triage tool using <strong>VirusTotal API</strong> to assist SOC analysts in identifying malicious IoCs.</p>
+                        <div class="tech-stack-mini">PYTHON | API | VT-v3</div>
+                        <a href="https://github.com/tanjyosai/Security-Automation-IP-Checker" target="_blank" class="git-link">RUN_SCRIPT >></a>
+                    </div>
+
+                    <div class="p-card border-red">
+                        <div class="card-meta">INCIDENT_RESPONSE // [STATUS: CLOSED]</div>
+                        <h3>Incident Analysis Lab</h3>
+                        <p>Post-mortem analysis of a DoS attack using NIST 800-61 phases to improve network resilience.</p>
+                        <div class="tech-stack-mini">NIST | IR | DOS_ANALYSIS</div>
+                        <a href="https://github.com/tanjyosai/NIST-CSF-Incident-Response-Lab" target="_blank" class="git-link">IR_REPORT >></a>
+                    </div>
+
+                    <div class="p-card">
+                        <div class="card-meta">GOVERNANCE // [STATUS: STABLE]</div>
+                        <h3>NIST Risk Strategy</h3>
+                        <p>Strategic mapping of organizational security goals to the <strong>NIST CSF</strong> core functions and risk registers.</p>
+                        <div class="tech-stack-mini">RISK_ASSESSMENT | NIST</div>
+                        <a href="https://github.com/tanjyosai/NIST-CSF-Risk-Management" target="_blank" class="git-link">GOV_STRATEGY >></a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- COLUMN 3: LOGS & RECORDS -->
+            <aside class="side-stack">
+                <section class="panel mini-panel">
+                    <div class="panel-header">[ 03_WORK_HISTORY ]</div>
+                    <div class="panel-body">
+                        <div class="xp-item">
+                            <strong>DSE <span class="badge">ACTIVE_OP</span></strong>
+                            <p class="xp-sub">Cloud Security Engineer | 02/2026 — Present</p>
+                            <ul class="xp-desc">
+                                <li>Architecting Zero-Trust perimeters.</li>
+                                <li>Automating IAM lifecycle audits.</li>
+                                <li>Hardening multi-cloud landing zones.</li>
+                            </ul>
+                        </div>
+                        <div class="xp-item">
+                            <strong>RHI Magnesita</strong>
+                            <p class="xp-sub">Software Engineer | 08/2023 — 08/2024</p>
+                            <ul class="xp-desc">
+                                <li>Engineered secure backend services**.</li>
+                                <li>Managed Azure NSG traffic security.</li>
+                                <li>Integrated SAST into DevOps pipelines.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="panel mini-panel">
+                    <div class="panel-header">[ 04_SEC_VAULT ]</div>
+                    <div class="panel-body">
+                        <div class="v-item">> Blue Team Junior Analyst</div>
+                        <div class="v-item">> Google Cybersecurity Pro</div>
+                        <div class="v-item">> HTB Certified Junior Cybersecurity Associate</div>
+                        <div class="v-item">> arcX Foundation Level Threat intelligence Analyst</div>
+                        <div class="v-item">> AZ-900: Microsoft Azure Fundamentals</div>
+                    </div>
+                </section>
+<!-- ACADEMIC RECORDS -->
+<section class="panel mini-panel h-edu">
+    <div class="panel-header">[ 05_ACADEMIC_RECORDS ]</div>
+    <div class="panel-body">
+        
+        <div class="edu-item">
+            <strong>Software Engineering</strong>
+            <p class="xp-sub">Estácio // 2026 Concluding</p>
+            <ul class="xp-desc">
+                <li>Focus: **Distributed Systems Architecture** and Cloud-Native security patterns.</li>
+                <li>Applied **Modern Cryptography** and Identity Protocols (OIDC/SAML) in dev environments.</li>
+                <li>Thesis/Focus: Integrating security automation into the **DevSecOps** lifecycle.</li>
+            </ul>
+        </div>
+
+        <div class="edu-item">
+            <strong>B.Sc. in Physics</strong>
+            <p class="xp-sub">UFRPE // 2022 Concluded</p>
+            <ul class="xp-desc">
+                <li>Specialized in **Computational Physics** and the analysis of high-entropy complex systems.</li>
+                <li>Developed high-level **analytical logic** used to solve multi-variable physical problems.</li>
+                <li>Transferred **Mathematical Rigor** from physical modeling to digital threat-hunting logic.</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+        <footer class="bottom-ticker-bar">
+            <div class="ticker-content">
+                STATUS: AUTHENTICATED // NODE: RECIFE_UPLINK // ALERT: BRUTE_FORCE_ATTACK_DETECTED_ON_SWEDEN_CENTRAL_VM // APPLYING_NIST_CONTROLS // SYNCING_THREAT_INTEL...
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
